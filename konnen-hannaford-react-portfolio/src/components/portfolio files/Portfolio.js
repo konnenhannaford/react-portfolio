@@ -69,18 +69,32 @@ export default function Portfolio() {
                 </div>
                 </div>
 
-                <a className="prev fa fa-angle-double-left" onclick="plusSlides(-1)"></a>
-                <a className="next fa fa-angle-double-right" onclick="plusSlides(1)"></a>
+                <a className="prev fa fa-angle-double-left" 
+                // onClick="plusSlides(-1)"
+                ></a>
+                <a className="next fa fa-angle-double-right" 
+                // onClick="plusSlides(1)"
+                ></a>
                 </div>
                 <br/>
 
-                <div style="text-align:center">
-                <span className="dot" onclick="currentSlide(1)"></span>
-                <span className="dot" onclick="currentSlide(2)"></span>
-                <span className="dot" onclick="currentSlide(3)"></span>
-                <span className="dot" onclick="currentSlide(4)"></span>
+                <div>
+                <span className="dot" 
+                // onClick="currentSlide(1)"
+                ></span>
+                <span className="dot" 
+                // onClick="currentSlide(2)"
+                ></span>
+                <span className="dot" 
+                // onClick="currentSlide(3)"
+                ></span>
+                <span className="dot" 
+                // onClick="currentSlide(4)"
+                ></span>
+
+
 
             </div>
-            </div>
+            </div> 
 )
 }

@@ -12,8 +12,7 @@ import {BrowserRouter as Router,
 // how i have my protfolio structured
 import Contact from "./components/portfolio files/Contact";
 // import Portfolio from "./components/Portfolio";
-// import Landing from "./components/Landing";
-// import Home from "./components/Home";
+import Home from "./components/portfolio files/Home";
 
 // how tute has it structured
 // import Projects from "./components/Projects";
@@ -34,14 +33,17 @@ import Navigation from "./components/Navigation";
         <Router>
           <Header/>
           <Navigation/>
-            <Routes path="/">
-              <Route path="portfolio" exact element={<Portfolio/>}/>
-              <Route path="contact" element={<Contact/>}/>
+            <Routes>
+            <Route index element={<Home/>}/>
+            <Route path="portfolio" element={<Portfolio/>}/>
+            <Route path="contact" element={<Contact/>}/> 
             </Routes>
           <Footer/>
         </Router>
       );
     }
+
+
 
   
 
