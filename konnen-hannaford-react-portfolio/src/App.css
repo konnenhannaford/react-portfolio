@@ -7,6 +7,18 @@ html {
   height: 100%; 
 }
 
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+
+}
+
+.fas fa-laptop {
+  width: 100px;
+  height: 100px;
+
+}
 
 body{
   min-height: 100vh;
@@ -14,6 +26,14 @@ body{
   flex-direction: column;
 }
 
+.text {
+  color: #ee8982;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+}
 
 .site-logo {
   border-radius: 180px;
