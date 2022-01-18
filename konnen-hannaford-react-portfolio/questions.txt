@@ -1,0 +1,2 @@
+do i add css in index.css?
+do i need to have app.js set up as i dowhy does it keep runnign localohost from old/
