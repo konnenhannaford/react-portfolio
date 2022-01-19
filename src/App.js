@@ -1,5 +1,5 @@
 // is this just the react logo
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // do i want the css here?
 import './App.css';
 import React from "react";
@@ -34,7 +34,8 @@ import Navigation from "./components/Navigation";
           <Header/>
           <Navigation/>
             <Routes>
-            <Route index element={<Home/>}/>
+            {/* <Route index element={<Home/>}/> */}
+            <Route path="/" element={<Home/>}/>
             <Route path="portfolio" element={<Portfolio/>}/>
             <Route path="contact" element={<Contact/>}/> 
             <Route path="resume" element={<Resume/>}/> 
