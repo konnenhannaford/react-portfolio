@@ -19,7 +19,13 @@ export default function Navigation() {
                     <span class="divider">|</span> 
                 <li>
                     <Link className="navbar-item" to="/contact">
-                        Contact Me & Resume
+                        Contact Me
+                    </Link>  
+                </li>
+                <span class="divider">|</span> 
+                <li>
+                    <Link className="navbar-item" to="/resume">
+                        Resume
                     </Link>  
                 </li>
             </ul>

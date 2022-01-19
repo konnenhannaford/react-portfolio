@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import PDF from '../../images/Konnen Hannaford Web Resume.pdf';
 
 export default function Contact() {
 
@@ -16,9 +16,6 @@ export default function Contact() {
             <p>
                 <a href="https://github.com/konnenhannaford">Github</a>
             </p>
-            <br/>
-            <Link to="../../images/Konnen Hannaford Web Resume.pdf" download>Download My resume</Link>
-            {/* <a href="../../images/Konnen Hannaford Web Resume.pdf" target="_blank" rel="noreferral"><Link mb={4}>Download Resume</Link></a> */}
         </div>
 </div>
         

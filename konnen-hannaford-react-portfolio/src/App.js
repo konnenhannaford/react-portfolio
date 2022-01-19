@@ -11,7 +11,7 @@ import {BrowserRouter as Router,
 
 // how i have my protfolio structured
 import Contact from "./components/portfolio files/Contact";
-// import Portfolio from "./components/Portfolio";
+import Resume from "./components/portfolio files/Resume";
 import Home from "./components/portfolio files/Home";
 
 // how tute has it structured
@@ -37,6 +37,7 @@ import Navigation from "./components/Navigation";
             <Route index element={<Home/>}/>
             <Route path="portfolio" element={<Portfolio/>}/>
             <Route path="contact" element={<Contact/>}/> 
+            <Route path="resume" element={<Resume/>}/> 
             </Routes>
           <Footer/>
         </Router>

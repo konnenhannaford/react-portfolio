@@ -10,13 +10,13 @@ export default function Portfolio() {
             <div>
                 <div className="slideshow-container">
                     <div className="mySlides">
-                        {/* <div className=''> */}
+                        <div className=''>
                             <p className="text">
                                 Java Quizz
                                 <a href="https://github.com/konnenhannaford/Java-Quizz" className="fa fa-github"></a>
                                 <a href="https://konnenhannaford.github.io/Java-Quizz/" className="fa fa-desktop" aria-hidden="true"></a>
                             </p>
-                        {/* </div> */}
+                        </div>
                         <img className="portfoliolinks"src= {slide1Img} />
 
                     <div className="mySlides">
