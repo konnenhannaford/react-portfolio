@@ -4,7 +4,7 @@ export default function Contact() {
 
     return (
         
-<div className="card contact">
+<div className="card home">
         <div className="card-content">
             <p className="title is-1 ">Get in Touch</p>
         

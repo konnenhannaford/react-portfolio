@@ -7,12 +7,100 @@ html {
   height: 100%; 
 }
 
+/* ------------------------------------- */
+
+                    header {
+                      padding: 1rem;
+                    }
+
+                    #navbarmenu {
+                      display:table; 
+                      margin:0 auto; 
+                      text-align:center; 
+                    }
+
+                    #navbarmenu ul {
+                    list-style:none;
+                    display:inline-block; /* IE6/7 has layout trip-switch */
+                    }
+
+                    #navbarmenu li {
+                    display:inline;
+                    }
+
+                    #navbarmenu a {
+                    text-decoration:none; 
+                    padding:0 1rem; /* variable width */
+                    font-family: 'Raleway', sans-serif;
+                    color: rgb(185, 200, 228);
+                    }
+
+                    figure {
+                    width:100%;
+                    text-align:center;
+                    }
+                      
+                    .divider{
+                    color: rgb(185, 200, 228);
+                    }
+
+                    @media only screen and (max-width: 600px) {
+
+                    nav {
+                      display: flex;
+                      flex-direction: row;
+                    }
+
+
+                    header {
+                      padding: 0;
+                      text-align: center;   
+                    }
+                    }
+/* ------------------------------------- */
+
+.home {
+  background-color: transparent;
+  border-radius: 45px;
+  display: block;
+  height: 100%;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(10px);
+  font-family: 'Raleway', sans-serif;
+  text-align: center; 
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+}
+
 .slideshow-container {
   max-width: 50%;
   position: relative;
   margin: auto;
 
 }
+
+/* @media screen and (max-width: 965px) {
+  .portfoliolinks {
+  width: 50%;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfoliolinks {
+  width: 30%;
+  text-align: center;
+  }
+} */
 
 .fas fa-laptop {
   width: 100px;
@@ -110,9 +198,6 @@ p {
   color: #fbd977;
 }
 
-.navbar-burger {
-    display:list-item
-}
 
 @media screen and (max-width: 768px) {
   .home {
@@ -121,6 +206,7 @@ p {
   }
   h1 {
     font-size: 50px;
-
   }
-  }
+.navbar{
+  size: 10px;
+}  }

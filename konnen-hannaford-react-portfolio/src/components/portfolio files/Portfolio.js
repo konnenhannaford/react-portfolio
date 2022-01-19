@@ -10,14 +10,14 @@ export default function Portfolio() {
             <div>
                 <div className="slideshow-container">
                     <div className="mySlides">
-                        <div className=''>
+                        {/* <div className=''> */}
                             <p className="text">
                                 Java Quizz
                                 <a href="https://github.com/konnenhannaford/Java-Quizz" className="fa fa-github"></a>
                                 <a href="https://konnenhannaford.github.io/Java-Quizz/" className="fa fa-desktop" aria-hidden="true"></a>
                             </p>
-                        </div>
-                        <img src= {slide1Img} />
+                        {/* </div> */}
+                        <img className="portfoliolinks"src= {slide1Img} />
 
                     <div className="mySlides">
                         <div >
@@ -28,7 +28,7 @@ export default function Portfolio() {
                             </p>
                         </div>
                     </div>
-                    <img src= {slide2Img} />
+                    <img className="portfoliolinks"src= {slide2Img} />
 
                     <div className="mySlides">
                         <div >
@@ -39,7 +39,7 @@ export default function Portfolio() {
                             </p>
                         </div>
                     </div>
-                    <img src= {slide3Img} />
+                    <img className="portfoliolinks"src= {slide3Img} />
 
                     <div className="mySlides">
                     <div>
@@ -49,7 +49,7 @@ export default function Portfolio() {
                             <a href="https://konnenhannaford.github.io/Day-Planner/" className="fa fa-desktop" aria-hidden="true"></a>
                             </p>
                     </div>
-                    <img src= {slide4Img} />
+                    <img className="portfoliolinks"src= {slide4Img} />
 
                     <div className="mySlides">
                         <div >
@@ -60,7 +60,7 @@ export default function Portfolio() {
                             </p>
                         </div>
                     </div>
-                    <img src= {slide5Img} />
+                    <img className="portfoliolinks"src= {slide5Img} />
 
                     <div className="mySlides">
                         <div >
@@ -70,8 +70,8 @@ export default function Portfolio() {
                             <a href="https://watch.screencastify.com/v/BKItKpOcXESryMfuri5v" className="fa fa-file-video-o" aria-hidden="true"></a>
                             </p>
                         </div>
+                        <img className="portfoliolinks"src= {slide6Img} />
                     </div>
-                    <img src= {slide6Img} />
 
                 </div> 
             </div> 
