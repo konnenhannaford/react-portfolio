@@ -35,6 +35,10 @@ body{
   width: 100%;
 }
 
+.profpic {
+  width: 100px;
+  height: 100px;
+}
 .site-logo {
   border-radius: 180px;
   width: 100px;

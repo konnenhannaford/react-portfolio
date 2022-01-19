@@ -1,3 +1,6 @@
+import profilepic from '../../images/profpic.jpeg'
+
+
 export default function Home() {
 
     return (
@@ -5,6 +8,7 @@ export default function Home() {
         <div className="card-content">
             <p className="about-me-header">About Me</p>
             <br/>
+            <img className="profpic" src= {profilepic} />
             <p>Hi there and welcome to my page </p>
                 <br/>
             <p>I am currently undertaking a full stack development course with Sydney Uni.  I hope to gain the skills 
@@ -16,7 +20,6 @@ export default function Home() {
             <p>I am excited about learning these new technologies and gaining further understanding of where I would like to end up</p>
             <br/>
             <p>Currently I have covered several languages and aspects of Web Development through this course and we have just started. Theres plenty to come.  Have a look at my portfolio and check out some of my work.</p>
-            {/* <img className="profile-pic" alt="Konnen Hannaford" src="../images/profpic.jpeg"; width=100px height=100px;><img> */}
         </div>
     </div>
 

@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 export default function Contact() {
 
     return (
@@ -15,9 +17,10 @@ export default function Contact() {
                 <a href="https://github.com/konnenhannaford">Github</a>
             </p>
             <br/>
-            <a href="../images/Konnen Hannaford Web Resume.pdf" download>Download My resume</a>
+            <Link to="../../images/Konnen Hannaford Web Resume.pdf" download>Download My resume</Link>
         </div>
 </div>
         
     )
 }
+
