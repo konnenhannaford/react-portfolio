@@ -18,6 +18,7 @@ export default function Contact() {
             </p>
             <br/>
             <Link to="../../images/Konnen Hannaford Web Resume.pdf" download>Download My resume</Link>
+            {/* <a href="../../images/Konnen Hannaford Web Resume.pdf" target="_blank" rel="noreferral"><Link mb={4}>Download Resume</Link></a> */}
         </div>
 </div>
         
