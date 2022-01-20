@@ -1,6 +1,6 @@
 # Konnen Hannaford My portfolio
 
-Site can be accessed here: hhttps://konnenhannaford.github.io/react-portfolio/
+Site can be accessed here: https://konnenhannaford.github.io/react-portfolio/
 Github Repo: The source can be retrieved by cloning and pulling from https://github.com/konnenhannaford/react-portfolio
 
 # About
